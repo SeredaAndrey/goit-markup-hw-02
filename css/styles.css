@@ -33,12 +33,17 @@ body {
   line-height: 1.88;
   color: var(--text-color-primary);
 }
+button {
+  font: inherit;
+  font-family: "Roboto";
+}
 
 /*Стили шапки*/
 .header-style {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
+  letter-spacing: 0.02em;
   color: var(--text-color-primary);
 }
 .header-style li {
@@ -67,6 +72,7 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
+  letter-spacing: 0.03em;
   color: #2196f3;
   text-decoration: none;
 }
@@ -83,17 +89,20 @@ body {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
   text-align: center;
   color: var(--text-color-hero);
 }
 .hero-style button {
   cursor: pointer;
 
-  background-color: var(--bgc-seccondary);
+  background-color: var(--bgc-primary);
 
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
+  letter-spacing: 0.06em;
   color: var(--text-color-primary);
 }
 
@@ -114,10 +123,13 @@ body {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 .features p {
   font-size: 14px;
   line-height: 1.71;
+  letter-spacing: 0.03em;
   color: var(--text-color-seccondary);
 }
 .features li {
@@ -128,6 +140,7 @@ body {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
+  letter-spacing: 0.03em;
   color: var(--text-color-primary);
 }
 .activities li {
@@ -138,18 +151,21 @@ body {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
+  letter-spacing: 0.03em;
   color: var(--text-color-primary);
 }
 .team h3 {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
+  letter-spacing: 0.03em;
   color: var(--text-color-primary);
 }
 .team p {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
+  letter-spacing: 0.03em;
   color: var(--text-color-seccondary);
 }
 .team li {
@@ -165,12 +181,14 @@ body {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
+  letter-spacing: 0.06em;
   color: var(--text-color-primary);
 }
 .portfolio-style-list p {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
+  letter-spacing: 0.03em;
   color: var(--text-color-seccondary);
 }
 .portfolio-style-list button {
@@ -181,6 +199,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
+  letter-spacing: 0.03em;
   color: var(--text-color-primary);
 }
 
@@ -217,6 +236,8 @@ body {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
+  letter-spacing: 0.03em;
+
   color: var(--text-color-footer);
 }
 .footer-style span {
